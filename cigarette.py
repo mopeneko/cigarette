@@ -21,7 +21,7 @@ pub_key = key_pair.public_key
 deadline = (
     int((datetime.datetime.today() + datetime.timedelta(hours=2)).timestamp()) - birthtime
 ) * 1000
-amount = 1 * 100000
+amount = 1
 fee = 1 * 100000
 message = "cigarette:smoked"
 
