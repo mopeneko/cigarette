@@ -8,11 +8,11 @@ from symbolchain.facade.SymbolFacade import SymbolFacade
 
 priv_key_hex = os.getenv("PRIVATE_KEY")
 address = os.getenv("ADDRESS")
-node = "http://sym-test-01.opening-line.jp:3000"
-birthtime = 1637848847
-mosaic_id = 0x3A8416DB2D53B6C8
+node = "http://01.symbol-blockchain.com:3000"
+birthtime = 1615853185
+mosaic_id = 0x606F8854012B0C0F
 
-facade = SymbolFacade("testnet")
+facade = SymbolFacade("mainnet")
 
 priv_key = PrivateKey(unhexlify(priv_key_hex))
 key_pair = KeyPair(priv_key)
